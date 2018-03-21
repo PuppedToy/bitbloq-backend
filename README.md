@@ -14,44 +14,44 @@
 
 ```
 {
-    "env": "local",
-    "gcloud": {
-        "projectId": "",
-        "keyFilename": ""
-    },
+	"env": "local",
+	"gcloud": {
+        "projectId": "idhere",
+        "keyFilename": "keyfile"
+	},
 
-    "cloudStorageBucket": "",
-    "client_domain": "http://localhost:9000",
-    "secrets": {
-        "session": ""
-    },
-    "port": 8000,
-    "ip": "0.0.0.0",
-    "mongo": {
-        "uri": "mongodb://localhost/bitbloq",
-        "options": {
-            "db": {
-                "safe": true
-            },
-            "user": "",
-            "pass": ""
-        }
-    },
+	"cloudStorageBucket": "bucketName",
+	"client_domain": "http://localhost:9000",
+	"secrets": {
+		"session": "secret"
+	},
+	"port": 8000,
+	"ip": "0.0.0.0",
+	"mongo": {
+		"uri": "mongodb://localhost/bitbloq",
+		"options": {
+			"db": {
+				"safe": true
+			},
+			"user": "",
+			"pass": ""
+		}
+	},
 
-    "seedDB": false,
-    "mailer": {
-        "auth": {
-            "user": "",
-            "pass": ""
-        },
-        "defaultFromAddress": "algo@algo.com"
-    },
-    "supportEmail": "algo@algo.com",
-    "userRoles": [
-        "guest",
-        "user",
-        "admin"
-    ]
+	"seedDB": false,
+	"mailer": {
+		"auth": {
+			"user": "",
+			"pass": ""
+		},
+		"defaultFromAddress": "algo@algo.com"
+	},
+	"supportEmail": "algo@algo.com",
+	"userRoles": [
+		"guest",
+		"user",
+		"admin"
+	]
 }
 ```
 
