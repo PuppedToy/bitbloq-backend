@@ -58,7 +58,7 @@
 ## How to run
 
 1. Run `nvm use 6` to ensure you are using NodeJS v6
-2. Run MongoDB on [Windows](https://docs.mongodb.com/tutorials/install-mongodb-on-windows/#run-mongodb-community-edition) or Ubuntu: `sudo service mongod start` You can also just execute `sudo mongod`, but remember not to run Mongo as root on production enviroment.
+2. Run MongoDB on [Windows](https://docs.mongodb.com/tutorials/install-mongodb-on-windows/#run-mongodb-community-edition) or Ubuntu: `sudo service mongod start`. You can also just execute `sudo mongod`, but remember not to run Mongo as root on production enviroment.
 3. Execute `node index.js` in base path.
 
 ## I have successfully ran backend. What now?
@@ -84,7 +84,7 @@ You should run [front-end](https://github.com/PuppedToy/bitbloq-frontend). To do
         "zh-CN"
     ],
     "saveTime": 2000,
-    "serverUrl": "http://localhost:8003/bitbloq/v1/",
+    "serverUrl": "http://localhost:8000/bitbloq/v1/",
     "gCloudUrl": "",
     "compilerUrl": "http://localhost:3000/",
     "bucket": "",
